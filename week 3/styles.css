@@ -2,7 +2,7 @@
     --primary-color: skyblue;
     --secondary-color: blue;
     --background-color: gold;
-    --text-color: grey;
+    --text-color: purple;
 }
 
 body {
@@ -55,7 +55,7 @@ main {
 }
 
 .project-item {
-    background-color: grey;
+    background-color: purple;
     padding: 20px;
     border: 1px solid burlywood;
     text-align: center;
