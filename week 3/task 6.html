@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Layout</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h2>Left Column</h2>
+            <p>This is the content of the left column. It can contain text, images, or any other elements you want.</p>
+        </div>
+        <div class="right-column">
+            <h2>Right Column</h2>
+            <p>This is the content of the right column. Similar to the left, it can hold various types of content.</p>
+        </div>
+    </div>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    overflow: hidden; 
+}
+
+.left-column {
+    float: left;
+    width: 60%; 
+    padding: 10px;
+    background-color: lightgrey; 
+}
+
+.right-column {
+    float: right;
+    width: 35%; 
+    padding: 10px;
+    background-color: lightgoldenrodyellow ;
+}
+ 
+    </style>
+</body>
+</html>

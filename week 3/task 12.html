@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://vignette.wikia.nocookie.net/drama/images/e/eb/RM_JBK.jpg/revision/latest?cb=20181016152152&path-prefix=es"><img src="" alt="Image 1"><br><br>
+        <img src="https://i.zoomtventertainment.com/media/Jin_9.jpg"><img src="" alt="Image 2"><br><br>
+        <img src="https://th.bing.com/th/id/OIP.x0uSTP7AS4GAUr4_fFVTYwHaHa?rs=1&pid=ImgDetMain"><img src="" alt="Image 3"><br><br>
+        <img src="https://th.bing.com/th/id/OIP.wdo3sIgo83ItNZoi9V8SzwHaEK?rs=1&pid=ImgDetMain"><img src="" alt="Image 4"><br><br>
+        <img src="https://wwd.com/wp-content/uploads/2023/04/T_Jimin_L1_VK_1392_v4_QC_R600.jpg"><img src="" alt="Image 5"><br><br>
+        <img src="https://resize.indiatvnews.com/en/resize/newbucket/1080_-/2023/05/befunky-collageddddfddddddddddddddddffsfddddddcdedfggggfddddsdsdfddfgeeeeedfdddddfffffffffffffffffdd-2023-05-19t105020-1684473646.jpg"><img src="center" alt="Image 6"><br><br>
+        <img src="https://i.pinimg.com/originals/16/60/e7/1660e74e69a50d80ec01cc4e1b4207fa.jpg"><img src="" alt="Image 7"><br><br>
+        <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-39122,resizemode-1,msid-94918730/news/international/uk/bts-members-to-undergo-military-services-in-south-korea-confirms-k-pop-bands-management.jpg"><img src="" alt="Image 8">
+    </div>
+</body>
+</html>
